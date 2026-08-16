@@ -1,0 +1,15 @@
+{
+  "raw_rows": 3471,
+  "raw_companies": 40,
+  "after_link_dedup": 3430,
+  "after_business_dedup": 3344,
+  "dropped_dispatch": 90,
+  "final_rows": 3254,
+  "final_companies": 40,
+  "unique_title_before": 2008,
+  "unique_title_after": 1315,
+  "rule_matched": 2891,
+  "rule_unmatched": 363,
+  "sim_assigned": 73,
+  "fallback_assigned": 290
+}

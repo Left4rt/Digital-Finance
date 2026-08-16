@@ -1,0 +1,27 @@
+{
+  "n_categories": 13,
+  "n_jobs": 3254,
+  "tier_cluster_agreement": 0.615,
+  "n_typical_roles": 16,
+  "typical_roles_coverage": 0.376,
+  "roles_dropped": [
+    {
+      "职能岗": "财务分析与预算管理",
+      "样本量": 2,
+      "处理": "样本量不足5，不纳入排名"
+    },
+    {
+      "职能岗": "反欺诈与反洗钱",
+      "样本量": 0,
+      "处理": "样本量不足5，不纳入排名"
+    }
+  ],
+  "risk_max": 73.8,
+  "risk_min": 32.9,
+  "tier_counts": {
+    "中等替代风险": 8,
+    "低替代风险": 3,
+    "高替代风险": 2
+  },
+  "n_subjobs_scored": 71
+}
