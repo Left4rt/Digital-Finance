@@ -1,0 +1,1910 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="evidence" attr.type="long"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="edge" attr.name="rel" attr.type="string"/>
+<key id="d4" for="node" attr.name="meta" attr.type="string"/>
+<key id="d3" for="node" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="layer" attr.type="long"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="CLUSTER::可信与底座">
+  <data key="d0">可信与底座</data>
+  <data key="d1">CLUSTER</data>
+  <data key="d2">1</data>
+  <data key="d3">0.0</data>
+  <data key="d4"></data>
+</node>
+<node id="CLUSTER::感知与生成">
+  <data key="d0">感知与生成</data>
+  <data key="d1">CLUSTER</data>
+  <data key="d2">1</data>
+  <data key="d3">0.0</data>
+  <data key="d4"></data>
+</node>
+<node id="CLUSTER::认知与推理">
+  <data key="d0">认知与推理</data>
+  <data key="d1">CLUSTER</data>
+  <data key="d2">1</data>
+  <data key="d3">0.0</data>
+  <data key="d4"></data>
+</node>
+<node id="AI_ENGINEERING">
+  <data key="d0">AI工程化与算力底座</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">6.419</data>
+  <data key="d4">5家/17句</data>
+</node>
+<node id="APP_INTERNAL">
+  <data key="d0">内部提效应用</data>
+  <data key="d1">APP</data>
+  <data key="d2">3</data>
+  <data key="d3">2.25</data>
+  <data key="d4">5家/6句</data>
+</node>
+<node id="PRODUCT_CREDIT">
+  <data key="d0">智能信贷</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">4.656</data>
+  <data key="d4">6家/12句</data>
+</node>
+<node id="PRODUCT_CUSTOMER">
+  <data key="d0">智能客服与营销</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">6.503</data>
+  <data key="d4">11家/18句</data>
+</node>
+<node id="PRODUCT_FINANCE">
+  <data key="d0">智能财务与司库</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">0.386</data>
+  <data key="d4">1家/1句</data>
+</node>
+<node id="PRODUCT_FRAUD">
+  <data key="d0">反欺诈与合规</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">2.767</data>
+  <data key="d4">5家/6句</data>
+</node>
+<node id="PRODUCT_INSURANCE">
+  <data key="d0">智能保险</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">2.246</data>
+  <data key="d4">3家/6句</data>
+</node>
+<node id="PRODUCT_INVEST">
+  <data key="d0">智能投研与财富管理</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">11.756</data>
+  <data key="d4">12家/38句</data>
+</node>
+<node id="PRODUCT_PAYMENT">
+  <data key="d0">智能支付与清算</data>
+  <data key="d1">PRODUCT</data>
+  <data key="d2">3</data>
+  <data key="d3">5.688</data>
+  <data key="d4">6家/11句</data>
+</node>
+<node id="TECH_CV">
+  <data key="d0">计算机视觉</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">8.11</data>
+  <data key="d4">7家/18句</data>
+</node>
+<node id="TECH_DECISION">
+  <data key="d0">智能决策与预测</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">4.203</data>
+  <data key="d4">10家/11句</data>
+</node>
+<node id="TECH_KG">
+  <data key="d0">知识图谱</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">1.915</data>
+  <data key="d4">3家/4句</data>
+</node>
+<node id="TECH_LLM">
+  <data key="d0">大模型与生成式AI</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">53.12</data>
+  <data key="d4">27家/131句</data>
+</node>
+<node id="TECH_ML">
+  <data key="d0">机器学习与深度学习</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">2.347</data>
+  <data key="d4">5家/8句</data>
+</node>
+<node id="TECH_NLP">
+  <data key="d0">自然语言处理</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">1.139</data>
+  <data key="d4">3家/3句</data>
+</node>
+<node id="TECH_PRIVACY">
+  <data key="d0">隐私计算与可信AI</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">0.942</data>
+  <data key="d4">2家/2句</data>
+</node>
+<node id="TECH_RL">
+  <data key="d0">强化学习与智能优化</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">1.299</data>
+  <data key="d4">3家/3句</data>
+</node>
+<node id="TECH_SPEECH">
+  <data key="d0">智能语音</data>
+  <data key="d1">TECH</data>
+  <data key="d2">2</data>
+  <data key="d3">1.263</data>
+  <data key="d4">4家/4句</data>
+</node>
+<node id="000750.SZ">
+  <data key="d0">国海证券</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.323</data>
+  <data key="d4">证据2句</data>
+</node>
+<node id="000987.SZ">
+  <data key="d0">越秀资本</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.42</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="000997.SZ">
+  <data key="d0">新大陆</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">3.535</data>
+  <data key="d4">证据8句</data>
+</node>
+<node id="002647.SZ">
+  <data key="d0">仁东控股</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.098</data>
+  <data key="d4">证据3句</data>
+</node>
+<node id="002657.SZ">
+  <data key="d0">中科金财</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">5.261</data>
+  <data key="d4">证据19句</data>
+</node>
+<node id="002670.SZ">
+  <data key="d0">国盛证券</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.406</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="002721.SZ">
+  <data key="d0">金一文化</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.439</data>
+  <data key="d4">证据2句</data>
+</node>
+<node id="002987.SZ">
+  <data key="d0">京北方</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">2.981</data>
+  <data key="d4">证据7句</data>
+</node>
+<node id="300033.SZ">
+  <data key="d0">同花顺</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">15.304</data>
+  <data key="d4">证据33句</data>
+</node>
+<node id="300059.SZ">
+  <data key="d0">东方财富</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">8.385</data>
+  <data key="d4">证据14句</data>
+</node>
+<node id="300085.SZ">
+  <data key="d0">银之杰</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">4.26</data>
+  <data key="d4">证据9句</data>
+</node>
+<node id="300130.SZ">
+  <data key="d0">新国都</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">2.118</data>
+  <data key="d4">证据3句</data>
+</node>
+<node id="300180.SZ">
+  <data key="d0">华峰超纤</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">2.663</data>
+  <data key="d4">证据7句</data>
+</node>
+<node id="300348.SZ">
+  <data key="d0">长亮科技</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">5.592</data>
+  <data key="d4">证据13句</data>
+</node>
+<node id="300377.SZ">
+  <data key="d0">赢时胜</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">3.858</data>
+  <data key="d4">证据16句</data>
+</node>
+<node id="300380.SZ">
+  <data key="d0">安硕信息</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.007</data>
+  <data key="d4">证据2句</data>
+</node>
+<node id="300465.SZ">
+  <data key="d0">高伟达</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.005</data>
+  <data key="d4">证据4句</data>
+</node>
+<node id="300468.SZ">
+  <data key="d0">四方精创</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.556</data>
+  <data key="d4">证据5句</data>
+</node>
+<node id="300541.SZ">
+  <data key="d0">先进数通</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">3.115</data>
+  <data key="d4">证据9句</data>
+</node>
+<node id="300542.SZ">
+  <data key="d0">新晨科技</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">2.391</data>
+  <data key="d4">证据5句</data>
+</node>
+<node id="300561.SZ">
+  <data key="d0">汇金科技</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.716</data>
+  <data key="d4">证据4句</data>
+</node>
+<node id="300663.SZ">
+  <data key="d0">科蓝软件</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">12.072</data>
+  <data key="d4">证据29句</data>
+</node>
+<node id="300674.SZ">
+  <data key="d0">宇信科技</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">3.223</data>
+  <data key="d4">证据5句</data>
+</node>
+<node id="300803.SZ">
+  <data key="d0">指南针</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.199</data>
+  <data key="d4">证据4句</data>
+</node>
+<node id="300941.SZ">
+  <data key="d0">创识科技</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.458</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="300996.SZ">
+  <data key="d0">普联软件</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">2.864</data>
+  <data key="d4">证据6句</data>
+</node>
+<node id="600446.SH">
+  <data key="d0">金证股份</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.763</data>
+  <data key="d4">证据5句</data>
+</node>
+<node id="600570.SH">
+  <data key="d0">恒生电子</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">4.71</data>
+  <data key="d4">证据7句</data>
+</node>
+<node id="600906.SH">
+  <data key="d0">财达证券</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">1.35</data>
+  <data key="d4">证据2句</data>
+</node>
+<node id="600928.SH">
+  <data key="d0">西安银行</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.978</data>
+  <data key="d4">证据2句</data>
+</node>
+<node id="601059.SH">
+  <data key="d0">信达证券</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.41</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="601788.SH">
+  <data key="d0">光大证券</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.774</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="603093.SH">
+  <data key="d0">南华期货</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.767</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="603123.SH">
+  <data key="d0">翠微股份</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">0.458</data>
+  <data key="d4">证据1句</data>
+</node>
+<node id="603171.SH">
+  <data key="d0">税友股份</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">3.139</data>
+  <data key="d4">证据7句</data>
+</node>
+<node id="603927.SH">
+  <data key="d0">中科软</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">3.796</data>
+  <data key="d4">证据10句</data>
+</node>
+<node id="688318.SH">
+  <data key="d0">财富趋势</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">4.861</data>
+  <data key="d4">证据13句</data>
+</node>
+<node id="688590.SH">
+  <data key="d0">新致软件</data>
+  <data key="d1">COMPANY</data>
+  <data key="d2">4</data>
+  <data key="d3">7.757</data>
+  <data key="d4">证据18句</data>
+</node>
+<node id="KW::大模型">
+  <data key="d0">大模型</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">31.0</data>
+  <data key="d4">31家公司提及</data>
+</node>
+<node id="KW::智能体">
+  <data key="d0">智能体</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">18.0</data>
+  <data key="d4">18家公司提及</data>
+</node>
+<node id="KW::智能风控">
+  <data key="d0">智能风控</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">10.0</data>
+  <data key="d4">10家公司提及</data>
+</node>
+<node id="KW::算力">
+  <data key="d0">算力</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">9.0</data>
+  <data key="d4">9家公司提及</data>
+</node>
+<node id="KW::RAG">
+  <data key="d0">RAG</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">8.0</data>
+  <data key="d4">8家公司提及</data>
+</node>
+<node id="KW::智能营销">
+  <data key="d0">智能营销</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">8.0</data>
+  <data key="d4">8家公司提及</data>
+</node>
+<node id="KW::财富管理">
+  <data key="d0">财富管理</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">8.0</data>
+  <data key="d4">8家公司提及</data>
+</node>
+<node id="KW::信贷">
+  <data key="d0">信贷</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">7.0</data>
+  <data key="d4">7家公司提及</data>
+</node>
+<node id="KW::智能客服">
+  <data key="d0">智能客服</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">7.0</data>
+  <data key="d4">7家公司提及</data>
+</node>
+<node id="KW::智能问答">
+  <data key="d0">智能问答</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">7.0</data>
+  <data key="d4">7家公司提及</data>
+</node>
+<node id="KW::数字人">
+  <data key="d0">数字人</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">7.0</data>
+  <data key="d4">7家公司提及</data>
+</node>
+<node id="KW::机器学习">
+  <data key="d0">机器学习</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">6.0</data>
+  <data key="d4">6家公司提及</data>
+</node>
+<node id="KW::AI Agent">
+  <data key="d0">AI Agent</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">6.0</data>
+  <data key="d4">6家公司提及</data>
+</node>
+<node id="KW::模型训练">
+  <data key="d0">模型训练</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">6.0</data>
+  <data key="d4">6家公司提及</data>
+</node>
+<node id="KW::智能决策">
+  <data key="d0">智能决策</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">6.0</data>
+  <data key="d4">6家公司提及</data>
+</node>
+<node id="KW::智能运维">
+  <data key="d0">智能运维</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">6.0</data>
+  <data key="d4">6家公司提及</data>
+</node>
+<node id="KW::自然语言处理">
+  <data key="d0">自然语言处理</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">5.0</data>
+  <data key="d4">5家公司提及</data>
+</node>
+<node id="KW::反欺诈">
+  <data key="d0">反欺诈</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">5.0</data>
+  <data key="d4">5家公司提及</data>
+</node>
+<node id="KW::清算">
+  <data key="d0">清算</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">5.0</data>
+  <data key="d4">5家公司提及</data>
+</node>
+<node id="KW::资产配置">
+  <data key="d0">资产配置</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">5.0</data>
+  <data key="d4">5家公司提及</data>
+</node>
+<node id="KW::规则引擎">
+  <data key="d0">规则引擎</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">5.0</data>
+  <data key="d4">5家公司提及</data>
+</node>
+<node id="KW::深度学习">
+  <data key="d0">深度学习</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">5.0</data>
+  <data key="d4">5家公司提及</data>
+</node>
+<node id="KW::多智能体">
+  <data key="d0">多智能体</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::语音识别">
+  <data key="d0">语音识别</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::语义理解">
+  <data key="d0">语义理解</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::OCR">
+  <data key="d0">OCR</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::贷后">
+  <data key="d0">贷后</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::代码生成">
+  <data key="d0">代码生成</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::反洗钱">
+  <data key="d0">反洗钱</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::智能支付">
+  <data key="d0">智能支付</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::知识图谱">
+  <data key="d0">知识图谱</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">4.0</data>
+  <data key="d4">4家公司提及</data>
+</node>
+<node id="KW::隐私计算">
+  <data key="d0">隐私计算</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::智能投研">
+  <data key="d0">智能投研</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::智能审核">
+  <data key="d0">智能审核</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::决策引擎">
+  <data key="d0">决策引擎</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::策略优化">
+  <data key="d0">策略优化</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::强化学习">
+  <data key="d0">强化学习</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::人脸识别">
+  <data key="d0">人脸识别</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::智能语音">
+  <data key="d0">智能语音</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">3.0</data>
+  <data key="d4">3家公司提及</data>
+</node>
+<node id="KW::计算机视觉">
+  <data key="d0">计算机视觉</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::智能办公">
+  <data key="d0">智能办公</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::智能投顾">
+  <data key="d0">智能投顾</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::车险">
+  <data key="d0">车险</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::MaaS">
+  <data key="d0">MaaS</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::模型管理">
+  <data key="d0">模型管理</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::图像识别">
+  <data key="d0">图像识别</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::语义分析">
+  <data key="d0">语义分析</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::POS">
+  <data key="d0">POS</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">2.0</data>
+  <data key="d4">2家公司提及</data>
+</node>
+<node id="KW::神经网络">
+  <data key="d0">神经网络</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::TTS">
+  <data key="d0">TTS</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::ASR">
+  <data key="d0">ASR</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::NLP">
+  <data key="d0">NLP</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::深度强化学习">
+  <data key="d0">深度强化学习</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::图数据库">
+  <data key="d0">图数据库</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::实体关系">
+  <data key="d0">实体关系</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::本体建模">
+  <data key="d0">本体建模</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::数据脱敏">
+  <data key="d0">数据脱敏</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::可信执行环境">
+  <data key="d0">可信执行环境</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::贷中">
+  <data key="d0">贷中</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::贷前">
+  <data key="d0">贷前</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::寿险">
+  <data key="d0">寿险</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::聚合支付">
+  <data key="d0">聚合支付</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::黑名单">
+  <data key="d0">黑名单</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::合规监测">
+  <data key="d0">合规监测</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::财务共享">
+  <data key="d0">财务共享</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<node id="KW::智能财务">
+  <data key="d0">智能财务</data>
+  <data key="d1">KEYWORD</data>
+  <data key="d2">0</data>
+  <data key="d3">1.0</data>
+  <data key="d4">1家公司提及</data>
+</node>
+<edge source="CLUSTER::可信与底座" target="AI_ENGINEERING">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">6.419</data>
+  <data key="d7">17</data>
+</edge>
+<edge source="CLUSTER::可信与底座" target="TECH_PRIVACY">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">0.942</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="CLUSTER::感知与生成" target="TECH_CV">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">8.11</data>
+  <data key="d7">18</data>
+</edge>
+<edge source="CLUSTER::感知与生成" target="TECH_LLM">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">53.12</data>
+  <data key="d7">131</data>
+</edge>
+<edge source="CLUSTER::感知与生成" target="TECH_NLP">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">1.139</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="CLUSTER::感知与生成" target="TECH_SPEECH">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">1.263</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="CLUSTER::认知与推理" target="TECH_DECISION">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">4.203</data>
+  <data key="d7">11</data>
+</edge>
+<edge source="CLUSTER::认知与推理" target="TECH_KG">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">1.915</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="CLUSTER::认知与推理" target="TECH_ML">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">2.347</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="CLUSTER::认知与推理" target="TECH_RL">
+  <data key="d5">SUBSUMES</data>
+  <data key="d6">1.299</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="AI_ENGINEERING" target="KW::算力">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">9.0</data>
+  <data key="d7">22</data>
+</edge>
+<edge source="AI_ENGINEERING" target="KW::模型训练">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">6.0</data>
+  <data key="d7">12</data>
+</edge>
+<edge source="AI_ENGINEERING" target="KW::MaaS">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="AI_ENGINEERING" target="KW::模型管理">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="APP_INTERNAL" target="KW::智能运维">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">6.0</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="APP_INTERNAL" target="KW::代码生成">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="APP_INTERNAL" target="KW::智能审核">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="APP_INTERNAL" target="KW::智能办公">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="PRODUCT_CREDIT" target="KW::信贷">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">7.0</data>
+  <data key="d7">12</data>
+</edge>
+<edge source="PRODUCT_CREDIT" target="KW::贷后">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="PRODUCT_CREDIT" target="KW::贷中">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="PRODUCT_CREDIT" target="KW::贷前">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="PRODUCT_CUSTOMER" target="KW::智能营销">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">8.0</data>
+  <data key="d7">14</data>
+</edge>
+<edge source="PRODUCT_CUSTOMER" target="KW::智能客服">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">7.0</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="PRODUCT_CUSTOMER" target="KW::智能问答">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">7.0</data>
+  <data key="d7">13</data>
+</edge>
+<edge source="PRODUCT_CUSTOMER" target="KW::数字人">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">7.0</data>
+  <data key="d7">9</data>
+</edge>
+<edge source="PRODUCT_FINANCE" target="KW::财务共享">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="PRODUCT_FINANCE" target="KW::智能财务">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="PRODUCT_FRAUD" target="KW::反欺诈">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">5.0</data>
+  <data key="d7">7</data>
+</edge>
+<edge source="PRODUCT_FRAUD" target="KW::反洗钱">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="PRODUCT_FRAUD" target="KW::黑名单">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="PRODUCT_FRAUD" target="KW::合规监测">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="PRODUCT_INSURANCE" target="KW::车险">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="PRODUCT_INSURANCE" target="KW::寿险">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="PRODUCT_INVEST" target="KW::财富管理">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">8.0</data>
+  <data key="d7">10</data>
+</edge>
+<edge source="PRODUCT_INVEST" target="KW::资产配置">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">5.0</data>
+  <data key="d7">11</data>
+</edge>
+<edge source="PRODUCT_INVEST" target="KW::智能投研">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="PRODUCT_INVEST" target="KW::智能投顾">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">6</data>
+</edge>
+<edge source="PRODUCT_PAYMENT" target="KW::清算">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">5.0</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="PRODUCT_PAYMENT" target="KW::智能支付">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">9</data>
+</edge>
+<edge source="PRODUCT_PAYMENT" target="KW::POS">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="PRODUCT_PAYMENT" target="KW::聚合支付">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_CV" target="PRODUCT_INVEST">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_CV" target="PRODUCT_CUSTOMER">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_CV" target="KW::OCR">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="TECH_CV" target="KW::人脸识别">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="TECH_CV" target="KW::计算机视觉">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="TECH_CV" target="KW::图像识别">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="TECH_DECISION" target="PRODUCT_FINANCE">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_DECISION" target="PRODUCT_CREDIT">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_DECISION" target="PRODUCT_CUSTOMER">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_DECISION" target="KW::智能风控">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">10.0</data>
+  <data key="d7">13</data>
+</edge>
+<edge source="TECH_DECISION" target="KW::智能决策">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">6.0</data>
+  <data key="d7">7</data>
+</edge>
+<edge source="TECH_DECISION" target="KW::规则引擎">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">5.0</data>
+  <data key="d7">6</data>
+</edge>
+<edge source="TECH_DECISION" target="KW::决策引擎">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="TECH_KG" target="KW::知识图谱">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">7</data>
+</edge>
+<edge source="TECH_KG" target="KW::图数据库">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_KG" target="KW::实体关系">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_KG" target="KW::本体建模">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="TECH_LLM" target="APP_INTERNAL">
+  <data key="d5">ENABLES</data>
+  <data key="d6">2.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="TECH_LLM" target="PRODUCT_CUSTOMER">
+  <data key="d5">ENABLES</data>
+  <data key="d6">10.0</data>
+  <data key="d7">10</data>
+</edge>
+<edge source="TECH_LLM" target="PRODUCT_INVEST">
+  <data key="d5">ENABLES</data>
+  <data key="d6">12.0</data>
+  <data key="d7">12</data>
+</edge>
+<edge source="TECH_LLM" target="PRODUCT_CREDIT">
+  <data key="d5">ENABLES</data>
+  <data key="d6">4.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="TECH_LLM" target="KW::大模型">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">31.0</data>
+  <data key="d7">174</data>
+</edge>
+<edge source="TECH_LLM" target="KW::智能体">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">18.0</data>
+  <data key="d7">97</data>
+</edge>
+<edge source="TECH_LLM" target="KW::RAG">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">8.0</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="TECH_LLM" target="KW::AI Agent">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">6.0</data>
+  <data key="d7">14</data>
+</edge>
+<edge source="TECH_ML" target="PRODUCT_FINANCE">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_ML" target="KW::机器学习">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">6.0</data>
+  <data key="d7">9</data>
+</edge>
+<edge source="TECH_ML" target="KW::深度学习">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">5.0</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="TECH_ML" target="KW::神经网络">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_NLP" target="PRODUCT_CREDIT">
+  <data key="d5">ENABLES</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_NLP" target="KW::自然语言处理">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">5.0</data>
+  <data key="d7">6</data>
+</edge>
+<edge source="TECH_NLP" target="KW::语义理解">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="TECH_NLP" target="KW::语义分析">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">2.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="TECH_NLP" target="KW::NLP">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="TECH_PRIVACY" target="KW::隐私计算">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="TECH_PRIVACY" target="KW::数据脱敏">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_PRIVACY" target="KW::可信执行环境">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_RL" target="KW::多智能体">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">7</data>
+</edge>
+<edge source="TECH_RL" target="KW::策略优化">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="TECH_RL" target="KW::强化学习">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="TECH_RL" target="KW::深度强化学习">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="TECH_SPEECH" target="KW::语音识别">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">4.0</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="TECH_SPEECH" target="KW::智能语音">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">3.0</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="TECH_SPEECH" target="KW::TTS">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="TECH_SPEECH" target="KW::ASR">
+  <data key="d5">EVIDENCED_BY</data>
+  <data key="d6">1.0</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="000750.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.323</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="000987.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.42</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="000997.SZ" target="PRODUCT_PAYMENT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">3.003</data>
+  <data key="d7">6</data>
+</edge>
+<edge source="000997.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.533</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002647.SZ" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.38</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002647.SZ" target="PRODUCT_PAYMENT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.514</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002647.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.204</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002657.SZ" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.138</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002657.SZ" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.288</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="002657.SZ" target="TECH_KG">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.372</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002657.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.462</data>
+  <data key="d7">9</data>
+</edge>
+<edge source="002670.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.406</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002721.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.439</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002987.SZ" target="APP_INTERNAL">
+  <data key="d5">APPLIES_INTERNAL</data>
+  <data key="d6">0.468</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002987.SZ" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.169</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="002987.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.343</data>
+  <data key="d7">6</data>
+</edge>
+<edge source="300033.SZ" target="AI_ENGINEERING">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.13</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300033.SZ" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">1.357</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="300033.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">4.789</data>
+  <data key="d7">12</data>
+</edge>
+<edge source="300033.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">9.028</data>
+  <data key="d7">18</data>
+</edge>
+<edge source="300059.SZ" target="AI_ENGINEERING">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.516</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="300059.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.933</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="300059.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">6.154</data>
+  <data key="d7">14</data>
+</edge>
+<edge source="300059.SZ" target="TECH_NLP">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.473</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300059.SZ" target="TECH_SPEECH">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.309</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300085.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.538</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300085.SZ" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.761</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="300085.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.399</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300085.SZ" target="TECH_ML">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.418</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300085.SZ" target="TECH_SPEECH">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.145</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300130.SZ" target="PRODUCT_FRAUD">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.897</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300130.SZ" target="PRODUCT_PAYMENT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.772</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300130.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.448</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300180.SZ" target="APP_INTERNAL">
+  <data key="d5">APPLIES_INTERNAL</data>
+  <data key="d6">0.636</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300180.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.665</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300180.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.971</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300180.SZ" target="TECH_ML">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.39</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300348.SZ" target="PRODUCT_FRAUD">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.467</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300348.SZ" target="PRODUCT_PAYMENT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.484</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300348.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.546</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300348.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">3.668</data>
+  <data key="d7">8</data>
+</edge>
+<edge source="300348.SZ" target="TECH_PRIVACY">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.427</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300377.SZ" target="APP_INTERNAL">
+  <data key="d5">APPLIES_INTERNAL</data>
+  <data key="d6">0.178</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300377.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.371</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300377.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.993</data>
+  <data key="d7">7</data>
+</edge>
+<edge source="300377.SZ" target="TECH_ML">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.315</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300380.SZ" target="PRODUCT_CREDIT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">1.007</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300465.SZ" target="PRODUCT_CREDIT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.802</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300465.SZ" target="TECH_NLP">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.203</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300468.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.384</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300468.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.172</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300541.SZ" target="AI_ENGINEERING">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.153</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300541.SZ" target="APP_INTERNAL">
+  <data key="d5">APPLIES_INTERNAL</data>
+  <data key="d6">0.514</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300541.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.448</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="300542.SZ" target="PRODUCT_CREDIT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.147</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300542.SZ" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.948</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300542.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.295</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300561.SZ" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.965</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300561.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.427</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300561.SZ" target="TECH_SPEECH">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.324</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300663.SZ" target="AI_ENGINEERING">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">3.449</data>
+  <data key="d7">7</data>
+</edge>
+<edge source="300663.SZ" target="PRODUCT_CREDIT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.686</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300663.SZ" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">1.487</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300663.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.554</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="300663.SZ" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.376</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300663.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">5.519</data>
+  <data key="d7">15</data>
+</edge>
+<edge source="300674.SZ" target="PRODUCT_CREDIT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">1.564</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="300674.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.658</data>
+  <data key="d7">5</data>
+</edge>
+<edge source="300803.SZ" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.352</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300803.SZ" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.846</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300941.SZ" target="PRODUCT_PAYMENT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.458</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300996.SZ" target="PRODUCT_FINANCE">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.386</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300996.SZ" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.351</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="300996.SZ" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.045</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="300996.SZ" target="TECH_ML">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.082</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="600446.SH" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.143</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600446.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.62</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="600570.SH" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">1.148</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="600570.SH" target="PRODUCT_INSURANCE">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.278</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600570.SH" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">2.073</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="600570.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.212</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="600906.SH" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.387</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600906.SH" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.177</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600906.SH" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.372</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600906.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.414</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600928.SH" target="PRODUCT_CREDIT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.448</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600928.SH" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.164</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="600928.SH" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.366</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="601059.SH" target="PRODUCT_FRAUD">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.41</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="601788.SH" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.353</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="601788.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.421</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603093.SH" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.37</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603093.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.397</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603123.SH" target="PRODUCT_PAYMENT">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.458</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603171.SH" target="TECH_KG">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.611</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603171.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.136</data>
+  <data key="d7">6</data>
+</edge>
+<edge source="603171.SH" target="TECH_RL">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.393</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603927.SH" target="AI_ENGINEERING">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">1.173</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="603927.SH" target="APP_INTERNAL">
+  <data key="d5">APPLIES_INTERNAL</data>
+  <data key="d6">0.453</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="603927.SH" target="PRODUCT_INSURANCE">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">1.078</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="603927.SH" target="TECH_KG">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.932</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="603927.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.16</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688318.SH" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.594</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688318.SH" target="PRODUCT_FRAUD">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.515</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688318.SH" target="PRODUCT_INVEST">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.638</data>
+  <data key="d7">3</data>
+</edge>
+<edge source="688318.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">2.031</data>
+  <data key="d7">4</data>
+</edge>
+<edge source="688318.SH" target="TECH_ML">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.141</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688318.SH" target="TECH_NLP">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.462</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688318.SH" target="TECH_RL">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.479</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688590.SH" target="PRODUCT_CUSTOMER">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.141</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688590.SH" target="PRODUCT_FRAUD">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.477</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688590.SH" target="PRODUCT_INSURANCE">
+  <data key="d5">OFFERS_PRODUCT</data>
+  <data key="d6">0.889</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="688590.SH" target="TECH_CV">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.602</data>
+  <data key="d7">2</data>
+</edge>
+<edge source="688590.SH" target="TECH_DECISION">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.335</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688590.SH" target="TECH_LLM">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">3.884</data>
+  <data key="d7">10</data>
+</edge>
+<edge source="688590.SH" target="TECH_PRIVACY">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.515</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688590.SH" target="TECH_RL">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.427</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="688590.SH" target="TECH_SPEECH">
+  <data key="d5">USES_TECH</data>
+  <data key="d6">0.485</data>
+  <data key="d7">1</data>
+</edge>
+</graph></graphml>
